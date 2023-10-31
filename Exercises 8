@@ -2,4 +2,8 @@ A) Give a direct implementation of the num children method within the class Bina
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 B) Implement the binary tree ADT using the array-based representation.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-class 
+class Tree:
+  class Position:
+  # abstraction representing the location of a single element
+  def element(self):
+  # return the element stored at the position
